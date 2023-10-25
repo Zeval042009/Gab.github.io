@@ -1,0 +1,107 @@
+html{
+	scroll-behavior: smooth;
+}
+#main{
+	min-height: 200vh;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(images/aboutbg.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+#content{
+	min-height: 88vh;
+}
+.row{
+	display: flex;
+	height: 85%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: white;
+	font-size: 60px;
+}
+h5{
+	color: #000080;
+	font-size: 1.5em;
+	text-shadow: 0 0 3px white;
+}
+.col p{
+	margin-top: -5px;
+	color: white;
+	font-size: 20px;
+	line-height: 25px;
+}
+.card p{
+	color: #000000;
+	text-shadow: 0 0 10px white;
+	font-size: 1.1em;
+}
+.card{
+	width: 40%;
+	height: 280px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+.card1{
+	background-image: url(images/Home/biocard.jpg);
+}
+.card2{
+	background-image: url(images/Home/engcard.jpg);
+}
+.card3{
+	background-image: url(images/Home/valedcard.jpg);
+}
+.card4{
+	background-image: url(images/Home/aboutcard.jpg);
+}
+#abtitle{
+	letter-spacing: 4px;
+}
+img[alt="idpic"]{
+	margin: 3% 0;
+	width: 94%;
+	border-radius: 10%;
+}
+a {
+	text-decoration: none;
+}
+td, th{
+	color: white;
+	text-align: left;
+	padding: 1px 5px;
+	font-size: 1.2em;
+}
+#sideabt{
+	width: 30%; 
+	float: left;
+}
+#abt{
+	margin-left: 5%;
+	padding-top: 2%;
+	width: 50%;
+	float: left;
+}
+#abt h1{
+	font-size: 5em;
+	color: #418024;
+}
+#abt li{
+	font-size: 1.5em;
+	color: white;
+	margin-left: 5%;
+}

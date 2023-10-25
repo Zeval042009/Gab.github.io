@@ -1,0 +1,144 @@
+#main{
+	min-height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../images/biobg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+#tree, #analys{
+	min-height: 100vh;
+}
+#chartab{
+	box-sizing: border-box;
+	border: solid 3px black;
+	margin: 2vh 2% 10vh 2%;
+	width: 94%;
+	height: 60vh;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 50px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+#chartab th{
+	color: white;
+}
+#chartab .yes{
+	color: green;
+}
+#chartab .no{
+	color: red;
+}
+h1{
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 4px black;
+	font-size: 4em;
+	margin-top: 2vh;
+}
+#sidemenu{
+	width: 40px;
+	height: 175px;
+	float: left;
+	position: fixed;
+	top: 50%;
+	right: 0;
+	box-sizing: border-box;
+	margin-top: -75px;
+	margin-right: .5%;
+	background-color: rgba(189, 195, 199, 0.3);
+	border-radius: 20px;
+}
+#sidemenu img{
+	height: 30px;
+	opacity: 0.7;
+	margin: 5px;
+}
+.card{
+	width: 45%;
+	height: 28vh;
+	display: inline-block;
+	border-radius: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 0;
+	margin: 0.4% 2.4%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.card:hover{
+	filter: brightness(20%);
+	color: white;
+}
+.img-desc{
+	width: 100%;
+	height: 32vh;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	padding: 5%;
+}
+.img-desc:hover{
+	opacity: 1;
+}
+.img-desc h3{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+.card1{
+	background-image: url(../images/Bio/org1.jpg);
+}
+.card2{
+	background-image: url(../images/Bio/org2.jpg);
+}
+.card3{
+	background-image: url(../images/Bio/org3.jpg);
+}
+.card4{
+	background-image: url(../images/Bio/org4.jpg);
+}
+.card5{
+	background-image: url(../images/Bio/org5.webp);
+}
+.card6{
+	background-image: url(../images/Bio/org6.jpg);
+}
+img[alt="Phylogenetic Tree"]{
+	margin-top: 2%;
+	margin-bottom: 1%;
+	border-radius: 10%;
+	width: 65%;
+	position: relative;
+	left: 50%;
+	margin-left: -32.5%;
+}
+#analysis{
+	margin-top: 3%;
+}
+.ans{
+	color: white;
+	padding: 0 10px;
+	font-size: 1.2em;
+	border-radius: 30px;
+	background-color: #040529;
+}
+img[alt="Highlighted Phylogenetic Tree"]{
+	height: 60vh;
+	border-radius: 30px;
+}
+#tree p{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 1.6em;
+}

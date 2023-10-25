@@ -1,0 +1,56 @@
+#main{
+	min-height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../../images/Eng/paperbg.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.charpix{
+	width: 25%;
+	margin-left: 6.25%;
+	border-radius: 7%;
+}
+#chars{
+	margin-top: 2%;
+}
+#chardesc{
+	width: 99%;
+	margin: auto;
+}
+h1{
+	text-align: center;
+	margin: 2% 0;
+	color: black;
+	font-size: 4em; 
+	text-shadow: 0 0 4px white;
+}
+th{
+	color: white;
+	font-size: 2em;
+	text-shadow: 0 0 4px white;
+	width: 33%;
+}
+td{
+	width: 33%;
+	padding-top: 1%;
+	padding-left: 7%;
+}
+.card{
+	margin: auto;
+	margin-bottom: 2%;
+	width: 60%;
+	height: 16vh;
+	display: inline;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 25px;
+	color: white;
+}

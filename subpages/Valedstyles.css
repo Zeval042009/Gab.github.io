@@ -1,0 +1,59 @@
+#main{
+	min-height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../images/valedbg.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+#maintitle{
+	margin-top: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0 0 5px black;
+}
+#titletab{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 5px black;
+}
+h5{
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.5em;
+	text-shadow: 0 0 3px white;
+}
+.card{
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 4%;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card:hover{
+	transform: scale(1.2);
+}
+.card1{
+	background-image: url(../images/Valed/Personal.jpg);
+}
+.card2{
+	background-image: url(../images/Valed/Family.jpg);
+}
+.card3{
+	background-image: url(../images/Valed/Education.jpg);
+}
+a{
+	text-decoration: none;
+}
